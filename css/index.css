@@ -3,17 +3,19 @@
 /* *********************************** */
 
 #container{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
-
-.container__grilla {
-    grid-column: 1/2;
+.container__grilla{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px;
-
-
+    column-gap: 80px;
+  
+    
 }
 .container__grilla__item{
     border-radius: 50%;
@@ -25,9 +27,33 @@
     
     
 }
+.container__grilla__item01--green{
+    background-color: black;
+    border-radius: 50%;        
+}
+.container__grilla__item02--yellow{
+    background-color: black;
+    border-radius: 50%;        
+}
+.container__grilla__item03--blue{
+    background-color: black;
+    border-radius: 50%;        
+}
 
 .container__grilla__item--rojo:hover{
     background-color: red;
+    z-index: 2;
+}
+.container__grilla__item01--green:hover{
+    background-color: green;
+    z-index: 2;
+}
+.container__grilla__item02--yellow:hover{
+    background-color: yellow;
+    z-index: 2;
+}
+.container__grilla__item03--blue:hover{
+    background-color: blue;
     z-index: 2;
 }
 

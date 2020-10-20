@@ -2,3 +2,45 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container__grilla {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+
+
+}
+.container__grilla__item{
+    border-radius: 50%;
+}
+
+.container__grilla__item--rojo{
+    background-color: black;
+    border-radius: 50%;
+    
+    
+}
+
+.container__grilla__item--rojo:hover{
+    background-color: red;
+    z-index: 2;
+}
+
+.container__grilla__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+

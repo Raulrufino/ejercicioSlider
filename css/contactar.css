@@ -14,14 +14,14 @@
 
 }
 .container__grilla__cuadrado{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background-image: url(../img/ojopixar.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    border-top: 150px solid green;
-    border-bottom: 150px solid green;
+    border-top: 250px solid green;
+    border-bottom: 250px solid green;
     box-sizing: border-box;
     transition: 1s;
     
@@ -32,3 +32,5 @@
    border-top: 0px solid green;
    border-bottom: 0px solid green;
  }
+
+ 
